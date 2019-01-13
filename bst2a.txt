@@ -1,0 +1,34 @@
+tlwright@bolt:/home/t/tlwright/public_html/src/algs>./bst2a 5 3 7 2 4 6 8 1 9
+5 3 7 2 4 6 8 1 9
+height of tree is 9, height of left subtree is 8, height of right subtree is 0
+9 traver 9: 0x804a2f8 9 p 0x804a2e0 l (nil) r (nil)
+1 traver 1: 0x804a2e0 1 p 0x804a2c8 l 0x804a2f8 r (nil)
+8 traver 8: 0x804a2c8 8 p 0x804a2b0 l 0x804a2e0 r (nil)
+6 traver 6: 0x804a2b0 6 p 0x804a298 l 0x804a2c8 r (nil)
+4 traver 4: 0x804a298 4 p 0x804a280 l 0x804a2b0 r (nil)
+2 traver 2: 0x804a280 2 p 0x804a268 l 0x804a298 r (nil)
+7 traver 7: 0x804a268 7 p 0x804a250 l 0x804a280 r (nil)
+3 traver 3: 0x804a250 3 p 0x804a238 l 0x804a268 r (nil)
+5 traver 5: 0x804a238 5 p (nil) l 0x804a250 r (nil)
+height of rotated left subtree is 4, height of rotated right subtree is 4
+9 traver 9: 0x804a2f8 9 p 0x804a2e0 l (nil) r (nil)
+1 traver 1: 0x804a2e0 1 p 0x804a2c8 l 0x804a2f8 r (nil)
+8 traver 8: 0x804a2c8 8 p 0x804a2b0 l 0x804a2e0 r (nil)
+6 traver 6: 0x804a2b0 6 p 0x804a298 l 0x804a2c8 r (nil)
+4 traver 4: 0x804a298 4 p (nil) l 0x804a2b0 r 0x804a280
+2 traver 2: 0x804a280 2 p 0x804a298 l (nil) r 0x804a268
+7 traver 7: 0x804a268 7 p 0x804a280 l (nil) r 0x804a250
+3 traver 3: 0x804a250 3 p 0x804a268 l (nil) r 0x804a238
+5 traver 5: 0x804a238 5 p 0x804a250 l (nil) r (nil)
+lca 4: 0x804a298 4 p (nil) l 0x804a2b0 r 0x804a280
+lowest common ancestor of 1 and 4 is 4
+min element is 9, max element is 5, root element is 4
+next element after 5 is none, prev element before 5 is none
+next element after 3 is none, prev element before 3 is none
+next element after 7 is none, prev element before 7 is none
+next element after 2 is none, prev element before 2 is none
+next element after 4 is none, prev element before 4 is none
+next element after 6 is none, prev element before 6 is none
+next element after 8 is none, prev element before 8 is none
+next element after 1 is none, prev element before 1 is none
+next element after 9 is none, prev element before 9 is none

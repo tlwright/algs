@@ -1,0 +1,24 @@
+tlwright@bolt:/home/t/tlwright/public_html/src/algs>./bst2 5 3 7 2 4 6 8 1 9
+5 3 7 2 4 6 8 1 9
+height of tree is 4, height of left subtree is 3, height of right subtree is 3
+1 traver 1: 0x804a240 1 p 0x804a1e0 l (nil) r (nil)
+2 traver 2: 0x804a1e0 2 p 0x804a1b0 l 0x804a240 r (nil)
+3 traver 3: 0x804a1b0 3 p 0x804a198 l 0x804a1e0 r 0x804a1f8
+4 traver 4: 0x804a1f8 4 p 0x804a1b0 l (nil) r (nil)
+5 traver 5: 0x804a198 5 p (nil) l 0x804a1b0 r 0x804a1c8
+6 traver 6: 0x804a210 6 p 0x804a1c8 l (nil) r (nil)
+7 traver 7: 0x804a1c8 7 p 0x804a198 l 0x804a210 r 0x804a228
+8 traver 8: 0x804a228 8 p 0x804a1c8 l (nil) r 0x804a258
+9 traver 9: 0x804a258 9 p 0x804a228 l (nil) r (nil)
+lca 3: 0x804a1b0 3 p 0x804a198 l 0x804a1e0 r 0x804a1f8
+lowest common ancestor of 1 and 4 is 3
+min element is 1, max element is 9, root element is 5
+next element after 5 is 6, prev element before 5 is 4
+next element after 3 is 4, prev element before 3 is 2
+next element after 7 is 8, prev element before 7 is 6
+next element after 2 is 3, prev element before 2 is 1
+next element after 4 is 5, prev element before 4 is 3
+next element after 6 is 7, prev element before 6 is 5
+next element after 8 is 9, prev element before 8 is 7
+next element after 1 is 2, prev element before 1 is none
+next element after 9 is none, prev element before 9 is 8

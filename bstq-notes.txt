@@ -1,0 +1,6 @@
+The code in q.c and bstq.c is demo/prototype quality just to show
+how to build a queue and then use it to traverse a binary search tree
+breadth first.
+
+It does not check the return from malloc or free the memory.
+  

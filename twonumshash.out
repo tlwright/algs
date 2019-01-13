@@ -1,0 +1,9 @@
+value = 3, hashidx = 5, hash = 0
+value = 4, hashidx = 3, hash = 1
+value = 5, hashidx = 1, hash = 2
+value = 7, hashidx = 8, hash = 3
+value = 50, hashidx = 10, hash = 4
+value = 100, hashidx = 9, hash = 5
+idx 0: value = 9, hashidx = 4, hash = 0, 3 + 9 = 12: 9 not found
+idx 1: value = 8, hashidx = 6, hash = 0, 4 + 8 = 12: 8 not found
+idx 2: value = 7, hashidx = 8, hash = 3, 5 + 7 = 12

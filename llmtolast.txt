@@ -1,0 +1,7 @@
+print 0x80498c8 0x80498b8 4
+print 0x80498b8 0x80498a8 3
+print 0x80498a8 0x8049898 2
+print 0x8049898 0x8049888 1
+print 0x8049888 (nil) 0
+2 to last is 2
+5 to last is invalid

@@ -1,0 +1,5 @@
++ ./twonumshash2 12
+3 4 5 7 50 100 
+3 + 9 = 12: 9 not found
+4 + 8 = 12: 8 not found
+5 + 7 = 12

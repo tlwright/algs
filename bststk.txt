@@ -1,0 +1,62 @@
++ ./bststk 5 3 7 2 4 6 8 1 9
+new    5: 0x8049bb0 5 l (nil) r (nil)
+search 5: 0x8049bb0 5 l (nil) r (nil)
+new    3: 0x8049bc0 3 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r (nil)
+new    7: 0x8049bd0 7 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+search 3: 0x8049bc0 3 l (nil) r (nil)
+new    2: 0x8049be0 2 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+search 3: 0x8049bc0 3 l 0x8049be0 r (nil)
+new    4: 0x8049bf0 4 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+search 7: 0x8049bd0 7 l (nil) r (nil)
+new    6: 0x8049c00 6 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+search 7: 0x8049bd0 7 l 0x8049c00 r (nil)
+new    8: 0x8049c10 8 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+search 3: 0x8049bc0 3 l 0x8049be0 r 0x8049bf0
+search 2: 0x8049be0 2 l (nil) r (nil)
+new    1: 0x8049c20 1 l (nil) r (nil)
+search 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+search 7: 0x8049bd0 7 l 0x8049c00 r 0x8049c10
+search 8: 0x8049c10 8 l (nil) r (nil)
+new    9: 0x8049c30 9 l (nil) r (nil)
+traver 1: 0x8049c20 1 l (nil) r (nil)
+traver 2: 0x8049be0 2 l 0x8049c20 r (nil)
+traver 3: 0x8049bc0 3 l 0x8049be0 r 0x8049bf0
+traver 4: 0x8049bf0 4 l (nil) r (nil)
+traver 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+traver 6: 0x8049c00 6 l (nil) r (nil)
+traver 7: 0x8049bd0 7 l 0x8049c00 r 0x8049c10
+traver 8: 0x8049c10 8 l (nil) r 0x8049c30
+traver 9: 0x8049c30 9 l (nil) r (nil)
+psh 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+psh 3: 0x8049bc0 3 l 0x8049be0 r 0x8049bf0
+psh 2: 0x8049be0 2 l 0x8049c20 r (nil)
+psh 1: 0x8049c20 1 l (nil) r (nil)
+pop 1: 0x8049c20 1 l (nil) r (nil)
+1
+pop 2: 0x8049be0 2 l 0x8049c20 r (nil)
+2
+pop 3: 0x8049bc0 3 l 0x8049be0 r 0x8049bf0
+3
+psh 4: 0x8049bf0 4 l (nil) r (nil)
+pop 4: 0x8049bf0 4 l (nil) r (nil)
+4
+pop 5: 0x8049bb0 5 l 0x8049bc0 r 0x8049bd0
+5
+psh 7: 0x8049bd0 7 l 0x8049c00 r 0x8049c10
+psh 6: 0x8049c00 6 l (nil) r (nil)
+pop 6: 0x8049c00 6 l (nil) r (nil)
+6
+pop 7: 0x8049bd0 7 l 0x8049c00 r 0x8049c10
+7
+psh 8: 0x8049c10 8 l (nil) r 0x8049c30
+pop 8: 0x8049c10 8 l (nil) r 0x8049c30
+8
+psh 9: 0x8049c30 9 l (nil) r (nil)
+pop 9: 0x8049c30 9 l (nil) r (nil)
+9

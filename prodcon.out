@@ -1,0 +1,55 @@
+Starting 20 producer threads
+Starting 10 consumer threads
+consumer waiting: counter is 0
+Sleeping for 20 seconds
+consumer waiting: counter is 0
+consumer waiting: counter is 0
+consumer waiting: counter is 0
+producer produced 1101513929
+consumer waiting: counter is 0
+consumer consumed 1101513929
+producer produced 635723058
+consumer waiting: counter is 0
+consumer consumed 635723058
+producer produced 1059961393
+consumer waiting: counter is 1
+consumer consumed 1059961393
+producer produced 1656478042
+producer produced 1653377373
+consumer consumed 1653377373
+consumer consumed 1656478042
+producer produced 756898537
+consumer waiting: counter is 1
+consumer consumed 756898537
+producer produced 149798315
+consumer consumed 149798315
+producer produced 184803526
+producer produced 412776091
+consumer consumed 412776091
+consumer consumed 184803526
+consumer waiting: counter is 0
+producer produced 42999170
+producer produced 982906996
+consumer consumed 982906996
+producer produced 135497281
+consumer consumed 135497281
+producer produced 1159126505
+producer produced 1632621729
+consumer consumed 1632621729
+producer produced 1141616124
+producer produced 84353895
+consumer consumed 84353895
+consumer consumed 1141616124
+producer produced 1548233367
+producer produced 1374344043
+producer produced 1477171087
+producer waiting: counter is 5
+producer waiting: counter is 5
+consumer consumed 1477171087
+producer produced 945117276
+consumer consumed 945117276
+producer produced 1889947178
+producer waiting: counter is 5
+producer waiting: counter is 5
+producer waiting: counter is 5
+Exit the program

@@ -1,0 +1,30 @@
++ ./bstcpp 5 3 7 2 4 6 8 1 9
+5 5 0x804e500 p (nil) l (nil) r (nil)
+3 3 0x804e518 p 0x804e500 l (nil) r (nil)
+7 7 0x804e530 p 0x804e500 l (nil) r (nil)
+2 2 0x804e548 p 0x804e518 l (nil) r (nil)
+4 4 0x804e560 p 0x804e518 l (nil) r (nil)
+6 6 0x804e578 p 0x804e530 l (nil) r (nil)
+8 8 0x804e590 p 0x804e530 l (nil) r (nil)
+1 1 0x804e5a8 p 0x804e548 l (nil) r (nil)
+9 9 0x804e5c0 p 0x804e590 l (nil) r (nil)
+
+1 0x804e5a8 p 0x804e548 l (nil) r (nil)
+2 0x804e548 p 0x804e518 l 0x804e5a8 r (nil)
+3 0x804e518 p 0x804e500 l 0x804e548 r 0x804e560
+4 0x804e560 p 0x804e518 l (nil) r (nil)
+5 0x804e500 p (nil) l 0x804e518 r 0x804e530
+6 0x804e578 p 0x804e530 l (nil) r (nil)
+7 0x804e530 p 0x804e500 l 0x804e578 r 0x804e590
+8 0x804e590 p 0x804e530 l (nil) r 0x804e5c0
+9 0x804e5c0 p 0x804e590 l (nil) r (nil)
+min value is 1
+next value after 5 is 6
+next value after 3 is 4
+next value after 7 is 8
+next value after 2 is 3
+next value after 4 is 5
+next value after 6 is 7
+next value after 8 is 9
+next value after 1 is 2
+next value after 9 is -1

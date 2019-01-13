@@ -1,0 +1,2 @@
+original string is 'the quick brown fox jumps', remove-chars is 'aeiou'
+updated string is 'th qck brwn fx jmps'

@@ -1,0 +1,35 @@
+tlwright@bolt:/home/t/tlwright/public_html/src/algs>./bst1 5 3 7 2 4 6 8 1 9
+new 5: 0x80499c0
+search 3: 0x80499c0 5 l (nil) r (nil)
+new 3: 0x80499d0
+search 7: 0x80499c0 5 l 0x80499d0 r (nil)
+new 7: 0x80499e0
+search 2: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 2: 0x80499d0 3 l (nil) r (nil)
+new 2: 0x80499f0
+search 4: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 4: 0x80499d0 3 l 0x80499f0 r (nil)
+new 4: 0x8049a00
+search 6: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 6: 0x80499e0 7 l (nil) r (nil)
+new 6: 0x8049a10
+search 8: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 8: 0x80499e0 7 l 0x8049a10 r (nil)
+new 8: 0x8049a20
+search 1: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 1: 0x80499d0 3 l 0x80499f0 r 0x8049a00
+search 1: 0x80499f0 2 l (nil) r (nil)
+new 1: 0x8049a30
+search 9: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 9: 0x80499e0 7 l 0x8049a10 r 0x8049a20
+search 9: 0x8049a20 8 l (nil) r (nil)
+new 9: 0x8049a40
+traverse: 0x8049a30 1 l (nil) r (nil)
+traverse: 0x80499f0 2 l 0x8049a30 r (nil)
+traverse: 0x80499d0 3 l 0x80499f0 r 0x8049a00
+traverse: 0x8049a00 4 l (nil) r (nil)
+traverse: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+traverse: 0x8049a10 6 l (nil) r (nil)
+traverse: 0x80499e0 7 l 0x8049a10 r 0x8049a20
+traverse: 0x8049a20 8 l (nil) r 0x8049a40
+traverse: 0x8049a40 9 l (nil) r (nil)

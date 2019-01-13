@@ -1,0 +1,7 @@
++ eval ./binsrch 2 2 10 15 24 28 36 42 48
+++ ./binsrch 2 2 10 15 24 28 36 42 48
+item = 2, array size = 8, array = 2 10 15 24 28 36 42 48 
+lower 0, center 3, upper 7, lower 2, center 24, upper 48
+lower 0, center 1, upper 2, lower 2, center 10, upper 15
+lower 0, center 0, upper 0, lower 2, center 2, upper 2
+iterBinSrch(0x80499b8, 8, 2) returned 0

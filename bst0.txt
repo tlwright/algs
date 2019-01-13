@@ -1,0 +1,45 @@
++ ./bst0 5 3 7 2 4 6 8 1 9
+newnod 5: 0x8049c78
+search 3: 0x8049c78 5 l (nil) r (nil)
+newnod 3: 0x8049c88
+search 7: 0x8049c78 5 l 0x8049c88 r (nil)
+newnod 7: 0x8049c98
+search 2: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+search 2: 0x8049c88 3 l (nil) r (nil)
+newnod 2: 0x8049ca8
+search 4: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+search 4: 0x8049c88 3 l 0x8049ca8 r (nil)
+newnod 4: 0x8049cb8
+search 6: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+search 6: 0x8049c98 7 l (nil) r (nil)
+newnod 6: 0x8049cc8
+search 8: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+search 8: 0x8049c98 7 l 0x8049cc8 r (nil)
+newnod 8: 0x8049cd8
+search 1: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+search 1: 0x8049c88 3 l 0x8049ca8 r 0x8049cb8
+search 1: 0x8049ca8 2 l (nil) r (nil)
+newnod 1: 0x8049ce8
+search 9: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+search 9: 0x8049c98 7 l 0x8049cc8 r 0x8049cd8
+search 9: 0x8049cd8 8 l (nil) r (nil)
+newnod 9: 0x8049cf8
+verifybs: 0x8049ce8 1 l (nil) r (nil)
+verifybs: 0x8049ca8 2 l 0x8049ce8 r (nil)
+verifybs: 0x8049c88 3 l 0x8049ca8 r 0x8049cb8
+verifybs: 0x8049cb8 4 l (nil) r (nil)
+verifybs: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+verifybs: 0x8049cc8 6 l (nil) r (nil)
+verifybs: 0x8049c98 7 l 0x8049cc8 r 0x8049cd8
+verifybs: 0x8049cd8 8 l (nil) r 0x8049cf8
+verifybs: 0x8049cf8 9 l (nil) r (nil)
+verifybst ret: 0
+search 5: 0x8049c78 5 l 0x8049c88 r 0x8049c98
+found node with data of 5, changed data to 9
+verifybs: 0x8049ce8 1 l (nil) r (nil)
+verifybs: 0x8049ca8 2 l 0x8049ce8 r (nil)
+verifybs: 0x8049c88 3 l 0x8049ca8 r 0x8049cb8
+verifybs: 0x8049cb8 4 l (nil) r (nil)
+verifybs: 0x8049c78 9 l 0x8049c88 r 0x8049c98
+verifybs data >= right: 0x8049c78 data 9 l 0x8049c88 right 7 0x8049c98
+verifybst ret: 1

@@ -1,0 +1,2 @@
+pushing into stack 0 1 2 3 4 5 6
+popping from stack 6 5 4 3 2 1 0

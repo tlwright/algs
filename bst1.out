@@ -1,0 +1,16 @@
+new 5: 0x80499c0
+search 4: 0x80499c0 5 l (nil) r (nil)
+new 4: 0x80499d0
+search 6: 0x80499c0 5 l 0x80499d0 r (nil)
+new 6: 0x80499e0
+search 3: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 3: 0x80499d0 4 l (nil) r (nil)
+new 3: 0x80499f0
+search 7: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+search 7: 0x80499e0 6 l (nil) r (nil)
+new 7: 0x8049a00
+traverse: 0x80499f0 3 l (nil) r (nil)
+traverse: 0x80499d0 4 l 0x80499f0 r (nil)
+traverse: 0x80499c0 5 l 0x80499d0 r 0x80499e0
+traverse: 0x80499e0 6 l (nil) r 0x8049a00
+traverse: 0x8049a00 7 l (nil) r (nil)

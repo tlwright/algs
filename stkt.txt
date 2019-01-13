@@ -1,0 +1,4 @@
+tlwright@bolt:/home/t/tlwright/public_html/src/algs>./stkt 5
+pushing into stack ii and ss 0 1 2 3 4
+popping from stack ii 4 3 2 1 0
+popping from stack ss 4 3 2 1 0
